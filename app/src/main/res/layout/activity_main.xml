@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textohola"
+        android:text="@string/ingrese_su_fecha_de_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="date"
+        android:layout_below="@id/textohola"
+        android:hint="@string/dia"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="date"
+        android:layout_below="@id/textohola"
+        android:layout_toEndOf="@id/edit1"
+        android:hint="@string/mes"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="date"
+        android:layout_below="@id/textohola"
+        android:layout_toEndOf="@id/edit2"
+        android:hint="@string/a_o"
+        android:textSize="20sp"
+        />
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/edit2"
+       android:text="@string/calcular"
+       />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit3"
+        android:layout_toEndOf="@id/button1"
+        android:text="@string/diferencia"
+        />
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit3"
+        android:layout_toEndOf="@id/button2"
+        />
+
+    
+
+
+</RelativeLayout>

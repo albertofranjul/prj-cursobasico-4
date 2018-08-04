@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calcula tu edad</string>
+    <string name="ingrese_su_fecha_de_nacimiento">Ingrese su fecha de nacimiento</string>
+    <string name="a_o">año</string>
+    <string name="mes">mes</string>
+    <string name="dia">dia</string>
+    <string name="calcular">Calcular</string>
+    <string name="diferencia">Diferencia</string>
+</resources>
